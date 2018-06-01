@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NodeJS Test</title>
+        <!-- Due to routing, current directory is ./nodejstest/ and not ./
+        Hence, css folder not available -->
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <!--Style from https://codepen.io/atakan/pen/gqbIz-->
+        <form id="msform" action="/nodejstest/user" method="post">
+    
+            <fieldset>
+                <h2 class="fs-title">Create your account</h2>
+
+                <input type="text" name="fName" placeholder="First Name" />
+                <input type="text" name="lName" placeholder="Last Name" />
+                <input type="tel" name="mobile" placeholder="Mobile Number" />
+    
+                <input type="text" name="email" placeholder="Email" />
+                <input type="password" name="pass" placeholder="Password" />
+                <input type="password" name="cpass" placeholder="Confirm Password" />
+                <input type="submit" name="submit" class="next action-button" value="Submit" />
+              
+            </fieldset>
+            
+        </form>
+    </body>
+</html>
