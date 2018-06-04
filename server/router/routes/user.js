@@ -1,7 +1,7 @@
 module.exports = (app, db) => {
 
     //add user to database
-    app.post('/data/user', (req, res) => {
+    app.post('/data/createUser', (req, res) => {
         db.user.create({
             email: req.body.email,
             first_name: req.body.fName,
@@ -16,14 +16,14 @@ module.exports = (app, db) => {
     })
 
     //get a user
-    app.post('/data/getuser', (req, res) => {
-        console.log("database user route");
-        mobile = req.body.mobile;
-        db.user.findOne({
-            mobile: mobile 
-        })
-        .then(foundUser => {
+    // app.post('/data/getuser', (req, res) => {
+    //     console.log("database user route");
+    //     mobile = req.body.mobile;
+    //     db.user.findOne({
+    //         mobile: mobile 
+    //     })
+    //     .then(foundUser => {
             
-        })
-    })
+    //     })
+    // })
 }
