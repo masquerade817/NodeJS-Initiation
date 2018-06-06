@@ -1,6 +1,23 @@
 # NodeJSTest
 Login System in NodeJS using ExpressJS.
 
+#### Dependencies:
+1. [`expressJS`](https://expressjs.com/)
+2. [`Sequelize`](http://docs.sequelizejs.com/)
+3. [`body-parser`](https://www.npmjs.com/package/body-parser)
+4. [`jsonwebtoken`](https://www.npmjs.com/package/jsonwebtoken)
+5. [`cookie-parser`](https://www.npmjs.com/package/cookie-parser)
+6. [`bcrypt`](https://www.npmjs.com/package/bcrypt)
+
+You can install all of them using:  
+`$ npm install express sequelize body-parser jsonwebtoken cookie-parser bcrypt`
+
+Also, any one of the following according to your needs:  
+`$ npm install --save pg pg-hstore`  
+`$ npm install --save mysql2`  
+`$ npm install --save sqlite3`  
+`$ npm install --save tedious`
+
 ### Login System consists of following APIs:
 1. `POST /user` : This api will help with user registration process. A user is defined by the following attributes:  
    a. `user_id` (primary_key)  
