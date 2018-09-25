@@ -1,4 +1,4 @@
-# NodeJSTest
+# NodeJS Initiation
 Login System in NodeJS using ExpressJS.  
 Do check out the [wiki][wiki] to read about the stuff that I learnt through my journey.
 
