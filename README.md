@@ -1,5 +1,6 @@
 # NodeJSTest
-Login System in NodeJS using ExpressJS.
+Login System in NodeJS using ExpressJS.  
+Do check out the [wiki][wiki] to read about the stuff that I learnt through my journey.
 
 #### Dependencies:
 1. [`expressJS`](https://expressjs.com/)
@@ -37,3 +38,5 @@ Also, any one of the following according to your needs:
 1. `ExpressJS`: For restful API development. You will make use of router and middlewares
 2. `Sequelize (MYSQL)`: For persistence (model) layer
 3. `Postman`: GUI for making API request.
+
+[wiki]: https://github.com/masquerade817/NodeJS-Initiation/wiki
